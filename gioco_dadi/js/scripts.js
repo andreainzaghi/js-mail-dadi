@@ -1,7 +1,7 @@
 var nomeUtente = prompt("Inserisci il tuo nome utente per giocare: ");
 
 var dadoUtente =prompt("Inserisci il tuo numero fortunato ");
-var dadoComputer = Math.floor(Math.random() * 6);
+var dadoComputer = Math.floor(Math.random() * 6) + 1 ;
 
 
 if (dadoUtente > dadoComputer) {

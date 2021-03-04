@@ -30,7 +30,7 @@ var utente = prompt("Benvenuto! Prima di inizare inserisci il tuo indirizzo emai
 
 console.log("La mail inserita dall'utente è " + utente);
 
-var emailGiusta;
+var emailGiusta=0;
 
 // 2. Confrontarla con le altre email
 
